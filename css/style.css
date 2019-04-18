@@ -1,0 +1,175 @@
+.index{
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+header
+{
+  text-align: center;
+}
+#navbar li{
+  display: inline;
+  padding: 20px;
+}
+#navbar a{
+  text-decoration: none;
+  font-size: 24px;
+  background-color: white;
+}
+a:hover{
+  color: blue;
+}
+.index-container #h2{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-family: cursive;
+  position: relative;
+  left: 220px;
+}
+.index-container{
+  width: 950px;
+  position: relative;
+  padding-left: 20px;
+}
+.index-container .img{
+  border: 20px solid;
+  width: 25%;
+  margin: auto;
+  position: absolute;
+  border-radius: 8px;
+  border: solid white;
+  margin-left: 220px;
+}
+.index-container #par1{
+  width: 350px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: absolute;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: white;
+  left: 530px;
+}
+
+.resume_container{
+  background-color: #FFFFE0;
+  border: solid;
+  width: 950px;
+  padding-left: 40px;
+  margin: 80px;
+  box-sizing:border-box;
+  margin: auto;
+  position: relative;
+}
+.contact{
+  background-color: white;
+}
+#name{
+  text-align: center;
+  padding-top: 10px;
+}
+#contact_id li{
+  display: inline;
+  padding-right: 125px;
+  font-weight: bold;
+  font-size: 17px;
+}
+#img_links #a1 {
+  width: 50px;
+  height: 50px;
+}
+#img_links #a2 {
+  width: 50px;
+  height: 50px;
+}
+h3{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif Impact, Charcoal, sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+h4{
+  font-family: Charcoal, sans-serif
+}
+h5{
+  font-style: oblique;
+  font-size: 14px;
+}
+ #courses{
+   width: 800px;
+   word-spacing: 0.2em;
+ }
+ .exp{
+   box-sizing: border-box;
+   word-spacing: 0.2em;
+ }
+ .exp ul{
+   margin: 0;
+   padding-right: 20px;
+ }
+ .proj h3{
+   margin-top: 1px;
+   padding: 0;
+ }
+ .proj ul{
+   margin: 0;
+ }
+ .skills h3{
+   margin: 0;
+ }
+ .hobby-class{
+   background-color: black;
+ }
+.hobby-container h1{
+  text-align: center;
+  color: yellow;
+}
+.hobby-container p{
+  position: relative;
+  bottom: 200px;
+  width: 400px;
+  height: 30px;
+  left: 500px;
+  color: white;
+  font-family: Jazz LET, fantasy;
+  font-size: 20px;
+}
+.pic1{
+ border: solid white;
+ position: relative;
+ border-radius: 50%;
+ left: 100px;
+ vertical-align: middle;
+ width: 300px;
+}
+.pic2{
+  width: 400px;
+  border: solid white;
+  border-radius: 8px;
+  position: relative;
+  bottom: 10px;
+  left: 60px;
+}
+.pic3{
+  width: 300px;
+  border-radius: 50%;
+  position: relative;
+  left: 100px;
+  border: solid white;
+  bottom: 20px;
+}
+iframe{
+  border: solid white;
+  border-radius: 8px;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: 60px;
+}
+#map{
+  width: 850px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
