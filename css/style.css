@@ -178,4 +178,10 @@ iframe{
 #map {
   height: 400px;
   width: 50%;
+  border: solid 10px;
+  position: relative;
+  left: 300px;
+}
+.map-page{
+  background-color: #FFFFE0;
 }
