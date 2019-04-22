@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsDyqXKCcZbH8N0w0vtRRdFaHx4Lgk7hw&callback=initMap"></script>
+
 </head>
 <body>
   <header>
@@ -20,18 +22,7 @@
       </div>
     </nav>
   </header>
-  <h1> My google map </h1>
+  <h1 id="ferris"> Ferris Wheel is my favorite amusement park </h1>
   <div id="map"> </div>
-  <script>
-    function initMap(){
-      var options = {
-        zoom:8,
-        center: {lat:41.894574,lng: -87.607220}
-      }
-      var map = new.googel.maps.Map(document.getElementById("map"), options);
-    }
-  </script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsDyqXKCcZbH8N0w0vtRRdFaHx4Lgk7hw&callback=initMap">
-  </script>
 </body>
 </html>

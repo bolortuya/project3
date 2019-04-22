@@ -172,7 +172,10 @@ iframe{
   margin-top: 6%;
   margin-left: 4%;
 }
+#ferris{
+  text-align: center;
+}
 #map {
   height: 400px;
-  width: 100%;
+  width: 50%;
 }
