@@ -132,8 +132,8 @@ h5{
   height: 30px;
   left: 500px;
   color: white;
-  font-family: Jazz LET, fantasy;
-  font-size: 20px;
+  font-family: cursive;
+  font-size: 22px;
 }
 .pic1{
  border: solid white;
@@ -167,9 +167,12 @@ iframe{
   position: relative;
   left: 60px;
 }
-#map{
-  width: 850px;
-  height: 600px;
-  margin: 0;
-  padding: 0;
+
+.intromap{
+  margin-top: 6%;
+  margin-left: 4%;
+}
+#map {
+  height: 400px;
+  width: 100%;
 }
