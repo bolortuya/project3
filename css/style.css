@@ -35,12 +35,12 @@ a:hover{
 }
 .index-container .img{
   border: 20px solid;
-  width: 25%;
+  width: 50%;
   margin: auto;
   position: absolute;
   border-radius: 8px;
   border: solid white;
-  margin-left: 220px;
+  float: left;
 }
 .index-container #par1{
   width: 350px;
