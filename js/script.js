@@ -1,9 +1,9 @@
 
 function initMap() {
-  var align = {lat:41.894574,lng: -87.607220};
+  var align = {lat:41.891745,lng: -87.607467};
   var map = new google.maps.Map(document.getElementById('map'),
    {
-     zoom: 8,
+     zoom: 14,
      center: align,
      mapTypeId: google.maps.MapTypeId.Map,
      mapTypeControlOptions: {

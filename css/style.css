@@ -179,8 +179,9 @@ iframe{
   height: 400px;
   width: 50%;
   border: solid 10px;
-  position: relative;
-  left: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .map-page{
   background-color: #FFFFE0;
