@@ -43,4 +43,12 @@
       width: 100px;
       float: left;
     }
+    iframe{
+      border: solid white;
+      border-radius: 8px;
+      width: 300px;
+      height: 250px;
+      position: relative;
+      left: 60px;
+    }
 }
