@@ -1,15 +1,14 @@
 /* On screens that are 992px or less, set the background color to blue */
-@media only screen and (max-width: 600px){
+@media (min-width: 320px) and (max-width: 480px){
     .index{
       background-color: Salmon;
   }
   .index-container #h2 {
     text-align: left;
-    padding-left: 150px;
   }
   .index-container .img{
     border: 25px solid;
-    width: 30%;
+    width: 25%;
     position: absolute;
     border-radius: 8px;
     border: solid white;
@@ -23,12 +22,25 @@
     font-family: "Times New Roman";
     font-size: 20px;
     color: white;
-    left: 330px;
+    left: 300px;
   }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px){
   .hobby-class {
     background-color: Salmon;  }
+  #navbar li{
+    display: grid;
+    }
+    #navbar a{
+      text-decoration: none;
+      font-size: 18px;
+      background-color: white;
+      margin: auto;
+      padding: none;
+    }
+    .hobby-container .pic1 .pic2 .pic3{
+      width: 100px;
+      float: left;
+    }
 }
